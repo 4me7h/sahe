@@ -1,0 +1,29 @@
+.desarrollos {
+    background-color: $color-black;
+    color: $color-white;
+    padding: 2rem 0 4rem;
+    &__header {
+        padding: 2rem 0; 
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        @include reset-list;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        &__item {
+            width: 23%;
+            
+        }
+
+        &__img {
+            width: 70%;
+        }
+    }
+
+}
