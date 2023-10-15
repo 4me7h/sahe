@@ -1,13 +1,9 @@
 .footer {
+    padding: 2rem 0 4rem;
     text-align: center;
-
     &__logo {
         width: 200px;
     }
-    &__content {
-        padding: 2rem 0;
-    }
-
     &__text {
         margin-bottom: .5rem;
     }

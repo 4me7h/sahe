@@ -11,7 +11,11 @@ function Contact() {
             <Row>
                 <Col>
                     <div className="contact__container">
-                        <div className="contact__header">contact__header</div>
+                        <div className="contact__header">
+                            <h2 className="text--title">
+                                Contacto
+                            </h2>
+                        </div>
                         <div className="contact__content">
                             contact__content
                         </div>

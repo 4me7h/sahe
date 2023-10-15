@@ -36,7 +36,7 @@ function Desarrollos() {
                             <ul className="desarrollos__list">
                                 {images.map((image) => (
                                     <li key={image.id} className="desarrollos__list__item">
-                                        <img className="desarrollos__list__img" src={image.src} atl={image.alt} />
+                                        <img className="desarrollos__list__img" src={image.src} alt={image.alt} />
                                     </li>
                                 ))}
                             </ul>

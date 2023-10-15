@@ -1,0 +1,23 @@
+.gallery {
+    padding: 2rem 0 4rem;
+    &__header {
+        padding: 2rem 0;
+        text-align: center;
+    }
+    &__content {
+        padding: 2rem 0;
+    }
+    &__list {
+        @include reset-list;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    &__item {
+        width: 33.3333333%;
+    }
+    &__img {
+        width: 100%;
+    }
+}
