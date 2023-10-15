@@ -1,0 +1,32 @@
+.hero {
+    padding: 6rem;
+    @include media('md') {
+        padding: 12rem 0;    
+    }
+    &--bgimg {
+        @include bgimg;
+    }
+
+    //filter
+    &__filter {
+        top: 0;
+        position: absolute;
+        background-color: rgba(black, 0.25);
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    //hero contenidos
+    &__container {
+
+    }
+    &__content {
+        position: relative;
+        margin: 0 auto;
+        width: 750px;
+        max-width: 100%;
+        color: $color-white;
+        text-align: center;
+    }
+}

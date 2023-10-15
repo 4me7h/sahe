@@ -1,0 +1,19 @@
+.mision {
+    @include bgimg;
+    @include media('lg') {
+        padding: 4rem 0;
+    }
+
+    &__content {
+        position: relative;
+    }
+
+    &__card {
+        background-color: rgba($color-black, 0.5);
+        padding: 2rem;
+        color: $color-white;
+        width: 50%;
+        position: relative;
+        right: -50%;
+    }
+}
