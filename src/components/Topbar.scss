@@ -25,6 +25,9 @@
             &:first-child {
                 flex: 45%;    
             }
+            &:last-child {
+                text-align: right;
+            }
         }
     }
 }

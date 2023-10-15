@@ -1,5 +1,39 @@
-.navbar {
-    &__nav {
+.navBar {
+    background-color: $color-black;
+    
+    &__container {
+        width: 100%;
         display: flex;
+        flex-wrap: wrap;
+        
+        align-items: center;
+    }
+    &__col {
+        width: 50%;
+    }
+    &__logo {
+        width: 200px;
+    }
+    &__nav {
+        @include reset-list;  
+        display: flex;
+        justify-content: space-between;
+
+        &__item {
+            margin-right: 1rem;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                @include link {
+                    color: $color-white;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+                @include hover {
+                    color: darken($color-white, 15%);
+                }
+            }
+        }
     }
 }
