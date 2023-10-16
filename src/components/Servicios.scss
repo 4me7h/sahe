@@ -10,7 +10,10 @@
         flex-wrap: wrap;
     }
     &__col {
-        width: 49%;
+        width: 100%;
+        @include media('lg') {
+            width: 49%;
+        }
     }
     &__img {
         width: 100%;

@@ -15,12 +15,12 @@
         justify-content: space-between;
         align-items: center;
         text-align: center;
-
         &__item {
-            width: 23%;
-            
+            width: 49%;
+            @include media('lg') {
+                width: 23%;
+            }
         }
-
         &__img {
             width: 70%;
         }

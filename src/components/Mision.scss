@@ -12,8 +12,11 @@
         background-color: rgba($color-black, 0.5);
         padding: 2rem;
         color: $color-white;
-        width: 50%;
+        width: 100%;
         position: relative;
-        right: -50%;
+        @include media('lg') {
+            right: -50%;
+            width: 50%;
+        } 
     }
 }
