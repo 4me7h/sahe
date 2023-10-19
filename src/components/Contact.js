@@ -13,11 +13,14 @@ function Contact() {
                     <div className="contact__container">
                         <div className="contact__header">
                             <h2 className="text--title">
-                                Contacto
+                                ¿Tienes algún interés escríbenos?<br />
+                                Escríbenos
                             </h2>
                         </div>
                         <div className="contact__content">
-                            contact__content
+                            <span className="contact__text">house@btu.com.mx</span>
+                            <span className="contact__text">construccionesvxp@gmail.com</span>
+                            <span className="contact__text">744 135 97 81</span>
                         </div>
                     </div>
                 </Col>
