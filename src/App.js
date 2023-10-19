@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 
 import imgBackgroundPortada from "./images/img-portada.jpg";
 import imgBackgroundMision from "./images/img-mision.jpg";
+import imgBackgroundPreventa from "./images/img-preventa-desktop.jpg";
 
 // import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -30,7 +31,9 @@ function App() {
         imgBackground= {imgBackgroundMision}
       />
       <Desarrollos />
-      <Preventa />
+      <Preventa 
+        imgBackground={imgBackgroundPreventa}
+      />
       <Servicios />
       <Productos />
       <Gallery />

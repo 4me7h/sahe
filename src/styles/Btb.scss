@@ -1,0 +1,12 @@
+.btn {
+    &--preventa {
+        @include link {
+            background-color: $color-yellow;
+            color: $color-white;
+            text-transform: uppercase;
+        }
+        @include hover {
+            background-color: darken($color-yellow, 10%);
+        }
+    }
+}
