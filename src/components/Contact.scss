@@ -12,6 +12,7 @@
         a {
             @include link {
                 color: $color-white;
+                font-size: 1.5rem;
             }
             @include hover {
                 color: darken($color-white, 15%)

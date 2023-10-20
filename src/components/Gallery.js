@@ -13,7 +13,6 @@ const imagePaths = [
     require("../images/img-gallery-08.jpg"),
     require("../images/img-gallery-09.jpg"),
     require("../images/img-gallery-10.jpg"),
-    require("../images/img-gallery-11.jpg"),
 ];
 
 function Gallery() {
