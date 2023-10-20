@@ -15,10 +15,10 @@ const Topbar = () => {
                                         CONOCE NUESTRO NUEVO DESARROLLO EN PREVENTA
                                     </li>
                                     <li className="topbar__item">
-                                        house@btu.com.mx
+                                        <a href="mailto:house@btu.com.mx" target="_blank" rel="noreferrer">house@btu.com.mx</a>
                                     </li>
                                     <li className="topbar__item">
-                                        Tel: 744 135 9781
+                                        WhatsApp: <a href="https://wa.me/527441359781" target="_blank" rel="noreferrer">744 135 97 81</a>
                                     </li>
                                 </ul>
                             </div>
