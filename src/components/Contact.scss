@@ -9,6 +9,14 @@
     }
     &__content {
         text-align: center;
+        a {
+            @include link {
+                color: $color-white;
+            }
+            @include hover {
+                color: darken($color-white, 15%)
+            } 
+        }
     }
     &__text {
         display: block;
