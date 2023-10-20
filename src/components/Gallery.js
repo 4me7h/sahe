@@ -12,7 +12,6 @@ const imagePaths = [
     require("../images/img-gallery-07.jpg"),
     require("../images/img-gallery-08.jpg"),
     require("../images/img-gallery-09.jpg"),
-    require("../images/img-gallery-10.jpg"),
 ];
 
 function Gallery() {

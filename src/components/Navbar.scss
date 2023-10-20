@@ -1,5 +1,6 @@
 .navBar {
     background-color: $color-black;
+    padding: 1rem 0;
     
     &__container {
         width: 100%;
@@ -11,6 +12,9 @@
     &__col {
         width: 50%;
         text-align: center;
+        &:first-child {
+            text-align: left;
+        }
         &:last-child {
             display: none;
             @include media('lg') {
