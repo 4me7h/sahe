@@ -24,7 +24,7 @@ function Nosotros() {
                                     Nuestro liderazgo en construcción, inversión, financiamiento, diseño, comercialización, equipamiento y operación de proyectos integrales nos colocan entre las desarrolladoras inmobiliarias y de infraestructura más importantes de México.
                                 </p>
                                 <p className="text--content">
-                                    El compromiso de SAHE está basado ayudar a alcanzar el sueño de nuestros clientes de tener una propiedad con plusvalía.
+                                    El compromiso de SAHE está basado en ayudar a alcanzar el sueño de nuestros clientes de tener una propiedad con plusvalía.
                                 </p>
                             </div>
                             <div className="nosotros__col">

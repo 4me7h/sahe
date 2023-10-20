@@ -25,7 +25,8 @@ function Preventa({imgBackground}) {
                             <div className="preventa__content">
                                 <img className="preventa__logo" src={logo} alt="logo-preventa" />
                                 <div>
-                                    <a className="btn btn--preventa" href="/">Ver más</a>
+                                    <a className="btn btn--preventa" href="https://www.youtube.com/@sahetuhogar" target="_blank" rel="noreferrer">Ver recorrido</a>
+                                    <a className="btn btn--preventa" href="/">Ver catálogo</a>
                                 </div>
                             </div>
                         </div>

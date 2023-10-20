@@ -60,7 +60,7 @@ function Productos() {
                                         Contratista General
                                     </span>
                                     <span className="productos__list--description__text">
-                                        Gestionamos el proyecto de forma integral a través de nuestro esquema que se basa en Tiempo Determinado y Precio Máximo Garantizado.
+                                        Gestionamos el proyecto de forma integral a través de nuestro esquema que se basa en tiempo determinado y precio máximo garantizado.
                                     </span>
                                 </li>
                                 <li className="productos__list--description__item">

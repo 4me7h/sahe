@@ -19,7 +19,7 @@ function Footer() {
                                 SAHE tu hogar :: Todos los Derechos Reservados
                             </p>
                             <p className="footer__text">
-                                Sitio Desarrollado por: Eureka Marketing Digital
+                                Sitio Desarrollado por: <a href="https://eurekamktdigital.com/" target="_blank" rel="noreferrer">Eureka Marketing Digital</a>
                             </p>
                             
                         </div>

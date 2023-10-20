@@ -13,14 +13,14 @@ function Contact() {
                     <div className="contact__container">
                         <div className="contact__header">
                             <h2 className="text--title">
-                                ¿Tienes algún interés escríbenos?<br />
+                                ¿Tienes algún interés?<br />
                                 Escríbenos
                             </h2>
                         </div>
                         <div className="contact__content">
-                            <span className="contact__text">house@btu.com.mx</span>
-                            <span className="contact__text">construccionesvxp@gmail.com</span>
-                            <span className="contact__text">744 135 97 81</span>
+                            <span className="contact__text"><a href="mailto:house@btu.com.mx">house@btu.com.mx</a></span>
+                            <span className="contact__text"><a href="mailto:construccionesvxp@gmail.com">construccionesvxp@gmail.com</a></span>
+                            <span className="contact__text">WhatsApp: <a href="https://wa.me/527441359781" target="_blank" rel="noreferrer">744 135 97 81</a></span>
                         </div>
                     </div>
                 </Col>
