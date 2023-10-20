@@ -49,7 +49,7 @@ function Productos() {
                             <ul className="productos__list--description">
                                 <li className="productos__list--description__item">
                                     <span className="productos__list--description__title">
-                                        Gerencia de Cosntrucción
+                                        Gerencia de Construcción
                                     </span>
                                     <span className="productos__list--description__text">
                                         Supervisamos a detalle la obra y coordinamos contratistas. Asumimos el riesgo por medio del cobro de una comisión fija.
