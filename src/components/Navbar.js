@@ -23,7 +23,6 @@ const Navbar = () => {
                             <div className="navBar__col">
                                 <img className="navBar__logo" src={logo} alt="logo" />
                             </div>
-                            
                             <div className="navBar__col">
                                 <button className="navBar__toggle" onClick={toggleNavbar}>
                                     <span className="navBar__toggle__icon"></span>

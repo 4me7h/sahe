@@ -4,6 +4,8 @@ import Col from "react-bootstrap/esm/Col";
 
 import logo from "../images/logo-preventa.png";
 
+import pdfUrl from "../images/pdf.pdf";
+
 
 function Preventa({imgBackground}) {
     const backgroundImage = `url(${imgBackground})`;
@@ -28,7 +30,7 @@ function Preventa({imgBackground}) {
                                     <a className="btn btn--preventa" href="https://www.youtube.com/@sahetuhogar" target="_blank" rel="noreferrer">Ver recorrido</a>
                                 </div>
                                 <div className="mt-4">
-                                    <a className="btn btn--preventa" href="/">Ver catálogo</a>
+                                    <a className="btn btn--preventa" href={pdfUrl} download="sahe-brochure">Ver catálogo</a>
                                 </div>
                             </div>
                         </div>
