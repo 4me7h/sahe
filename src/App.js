@@ -12,6 +12,8 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import { Element } from 'react-scroll';
+
 import imgBackgroundPortada from "./images/img-portada.jpg";
 import imgBackgroundMision from "./images/img-mision.jpg";
 import imgBackgroundPreventa from "./images/img-preventa-desktop.jpg";
@@ -22,22 +24,35 @@ function App() {
   return (
     <>
       <Header />
-      <Hero 
-        imgBackground = {imgBackgroundPortada}
-        text = {["Diseñamos espacios",<br />,<strong>Construimos emociones</strong>]}
-      />
-      <Nosotros />
-      <Mision 
-        imgBackground= {imgBackgroundMision}
-      />
+      <Element name="inicio">
+        <Hero 
+          imgBackground = {imgBackgroundPortada}
+          text = {["Diseñamos espacios",<br />,<strong>Construimos emociones</strong>]}
+        />
+      </Element>
+      <Element name="nosotros">
+        <Nosotros />
+      </Element>
+      
+        <Mision 
+          imgBackground= {imgBackgroundMision}
+        />
+      
+      
       <Desarrollos />
       <Preventa 
         imgBackground={imgBackgroundPreventa}
       />
-      <Servicios />
+      <Element name="servicios">
+        <Servicios />
+      </Element>
       <Productos />
-      <Gallery />
-      <Contact />
+      <Element name="galeria">
+        <Gallery />
+      </Element>
+      <Element name="contacto">
+        <Contact />
+      </Element>
       <Footer />
     </>
   );

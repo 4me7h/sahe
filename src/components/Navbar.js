@@ -2,6 +2,8 @@ import Col from "react-bootstrap/esm/Col"
 import Container from "react-bootstrap/esm/Container"
 import Row from "react-bootstrap/esm/Row"
 
+import {Link, animateScroll as scroll} from 'react-scroll';
+
 import logo from "../images/logo-blanco.png";
 
 const Navbar = () => {
@@ -16,11 +18,11 @@ const Navbar = () => {
                             </div>
                             <div className="navBar__col">
                                 <ul className="navBar__nav">
-                                    <li className="navBar__nav__item"><a href="/" exact activeClassName="active">inicio</a></li>
-                                    <li className="navBar__nav__item"><a href="/">nosotros</a></li>
-                                    <li className="navBar__nav__item"><a href="/">servicios</a></li>
-                                    <li className="navBar__nav__item"><a href="/">galeria</a></li>
-                                    <li className="navBar__nav__item"><a href="/">contacto</a></li>
+                                    <li className="navBar__nav__item"><Link to="inicio" smooth={true} duration={500} exact activeClassName="active">inicio</Link></li>
+                                    <li className="navBar__nav__item"><Link to="nosotros" smooth={true} duration={500}>nosotros</Link></li>
+                                    <li className="navBar__nav__item"><Link to="servicios" smooth={true} duration={500}>servicios</Link></li>
+                                    <li className="navBar__nav__item"><Link to="galeria" smooth={true} duration={500}>galeria</Link></li>
+                                    <li className="navBar__nav__item"><Link to="contacto" smooth={true} duration={500}>contacto</Link></li>
                                 </ul>
                             </div>
                         </div>
