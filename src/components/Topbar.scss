@@ -1,6 +1,10 @@
 .topbar {
     padding: .5rem 0;
     background-color: $color-yellow;
+    display: none;
+    @include media('lg') {
+        display: block;
+    }
     &__content {
         color: $color-white;
         text-align: center;
